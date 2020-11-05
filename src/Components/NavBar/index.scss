@@ -1,0 +1,19 @@
+.Navbar {
+  display: flex;
+  background-color: darkblue;
+  justify-content: space-between;
+  align-items: center;
+  .part1-nav,.part2-nav {
+     display: flex; 
+    .Nav-Components {
+      margin-right: 12px;
+      color: white;
+      font-size: 14px;
+      padding: 5px;
+    }
+    .Nav-Components:hover {
+      background-color: lightblue;
+      cursor: pointer;
+    }
+  }
+}

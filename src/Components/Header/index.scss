@@ -1,0 +1,19 @@
+.header-items {
+  display: flex;
+  justify-content: space-between;
+  .company-logo {
+    color: green;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 4px;
+  }
+  .location-server {
+    align-self: center;
+    font-weight: 700;
+  }
+  .Date{
+    margin-right: 10px;
+    font-weight: 6;
+    align-self: center;
+  }
+}
