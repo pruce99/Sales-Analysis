@@ -1,14 +1,9 @@
-import './App.css';
-import Header from './Components/Header/Header';
-import Navbar from './Components/NavBar/Navbar';
-import SalesAnalysis from './Components/Sales Analysis/SalesAnalysis';
+import "./App.css";
+import Routes from "./Routes/Routes";
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Navbar/>
-    </div>
+    <Routes/>
   );
 }
 
